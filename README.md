@@ -1,15 +1,21 @@
 # The UX Review
 
 <p align="center">
+
   <strong>A Bold Blog Landing Page Built with Pure HTML & CSS</strong>
+
 </p>
 
 <p align="center">
+
   A fully responsive, multi-section blog landing page inspired by the Neo-Brutalist design style.
+
 </p>
 
 <p align="center">
-  <a href="https://m7md-gom3aa.github.io/ux-review-blog/">🚀 Live Demo</a>
+
+  <a href="https://m7md-gom3aa.github.io/The-UX-Reviewe-Blog/">🚀 Live Demo</a>
+
 </p>
 
 ---
@@ -24,15 +30,15 @@ The project was built without frameworks, external libraries, or JavaScript.
 
 ## ✨ Features
 
-- **Neo-Brutalist Design:** Bold borders, hard shadows, and vibrant flat colors.
-- **Fixed Navigation Bar:** Rounded floating navbar with smooth in-page navigation.
-- **Responsive Layout:** Adapts to desktop, tablet, and mobile screens.
-- **Smooth Scrolling:** CSS-powered navigation between sections.
-- **Interactive Hover Effects:** Buttons, cards, headlines, and social icons.
-- **Sticky Sidebar:** Trending articles and categories follow the reader while scrolling.
-- **Decorative Badges:** Rotated labels using CSS positioning and transforms.
-- **Equal-Height Columns:** Balanced layout in the community section.
-- **Pure HTML & CSS:** No frameworks, libraries, or JavaScript.
+**Neo-Brutalist Design:** Bold borders, hard shadows, and vibrant flat colors.  
+**Fixed Navigation Bar:** Rounded floating navbar with smooth in-page navigation.  
+**Responsive Layout:** Adapts to desktop, tablet, and mobile screens.  
+**Smooth Scrolling:** CSS-powered navigation between sections.  
+**Interactive Hover Effects:** Buttons, cards, headlines, and social icons.  
+**Sticky Sidebar:** Trending articles and categories follow the reader while scrolling.  
+**Decorative Badges:** Rotated labels using CSS positioning and transforms.  
+**Equal-Height Columns:** Balanced layout in the community section.  
+**Pure HTML & CSS:** No frameworks, libraries, or JavaScript.
 
 ## 🖥️ Page Sections
 
@@ -48,8 +54,8 @@ The project was built without frameworks, external libraries, or JavaScript.
 
 ## 🛠️ Built With
 
-- **HTML5** – Semantic structure and page sections.
-- **CSS3**
+**HTML5** – Semantic structure and page sections.  
+**CSS3**
   - Flexbox
   - CSS Nesting
   - Positioning (`fixed`, `sticky`, `absolute`)
@@ -57,7 +63,8 @@ The project was built without frameworks, external libraries, or JavaScript.
   - Media Queries
   - `calc()` and `fit-content`
   - `oklch()` color values
-- **Google Fonts** – Exo 2.
+
+**Google Fonts** – Exo 2.
 
 ## 📱 Responsive Design
 
@@ -75,14 +82,21 @@ The project uses a desktop-first approach with five responsive breakpoints.
 
 ```text
 ux-review-blog/
+
 │
+
 ├── index.html
+
 ├── style.css
+
 │
+
 └── images/
+
     └── ...
+
 ```
 
 ## 🚀 Live Demo
 
-[**View The UX Review Website →**](https://m7md-gom3aa.github.io/ux-review-blog/)
+[**View The UX Review Website →**](https://m7md-gom3aa.github.io/The-UX-Reviewe-Blog/)
