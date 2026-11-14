@@ -50,7 +50,7 @@
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1299.98px) {
   header {
     display: none;
   }
@@ -235,7 +235,7 @@
   nav {
     left: 7%;
     right: 7%;
-    padding: 0 21px;
+
     border-radius: 12px;
   }
   .mobile-menu {
@@ -644,8 +644,8 @@
 
 @media (max-width: 575.98px) {
   nav {
-    left: 10%;
-    right: 10%;
+    left: 7%;
+    right: 7%;
     padding: 0 18px;
   }
   nav {
