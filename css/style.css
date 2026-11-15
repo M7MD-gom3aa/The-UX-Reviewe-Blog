@@ -312,15 +312,17 @@ nav {
 .watch-intro:hover .watch {
   transform: translate(8px, 8px);
 }
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
 .float-word {
   color: white;
-  top: 88px;
   padding: 8px 16px;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   display: flex;
-  margin-left: 483px;
   transform: rotate(12deg);
   border: 1px solid black;
   background: #e62e31;
@@ -328,16 +330,15 @@ nav {
   position: absolute;
   z-index: 2;
   box-shadow: 4px 4px black;
-}
-.hero-text {
-  flex: 1;
-  min-width: 0;
+  top: -16px;
+  right: -16px;
 }
 
 .hero-image {
   flex: 1;
   min-width: 0;
   height: 385px;
+  position: relative;
 }
 
 .hero-image img {
@@ -357,9 +358,8 @@ nav {
 .latest-articles {
   background-color: #f5f5f5;
   padding-top: 70px;
-  border-bottom: 2px solid black;
+  border: 2px solid black;
   width: 100%;
-  border: 1.6px solid black;
 }
 .main-width {
   width: 80%;
@@ -1380,8 +1380,9 @@ input {
 img {
   max-width: 100%;
 }
-header,
-.latest-articles,
+header {
+  border: 3px solid black;
+}
 .AUTHORS,
 .COMMUNITY {
   border: 1.6px solid black;
