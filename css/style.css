@@ -4,57 +4,19 @@ html {
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Exo 2", sans-serif;
   margin: 0;
   overflow-x: auto;
 }
-
 ::selection {
   background: #f5d15a;
   color: black;
 }
-
-header {
-  position: relative;
-  overflow: hidden;
-  background: #fbee86;
-  height: 790px;
-  z-index: 0;
-  width: 100%;
-  border: 1.6px solid black;
-}
-
-header::before {
-  content: "";
-  position: absolute;
-  top: 40px;
-  left: 30px;
-  width: 120px;
-  height: 120px;
-  background: rgba(0, 0, 0, 0.1);
-  transform: rotate(15deg);
-  z-index: 0;
-}
-
-header::after {
-  content: "";
-  position: absolute;
-  top: 160px;
-  left: 1325px;
-  width: 100px;
-  height: 100px;
-  background: rgba(255, 0, 0, 0.1);
-  transform: rotate(45deg);
-  z-index: 0;
-}
-
 .home-content {
-  position: relative;
-  z-index: 1;
-  margin-top: -640px;
-  width: 100%;
+  border: 2px solid black;
+  padding-top: 144px;
+  padding-bottom: 64px;
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
@@ -62,8 +24,28 @@ header::after {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  background-color: #fbf085;
 }
-
+.home-content::before {
+  content: "";
+  width: 128px;
+  height: 128px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  transform: rotate(12deg);
+}
+.home-content::after {
+  content: "";
+  width: 96px;
+  height: 96px;
+  background-color: rgb(251, 44, 54, 0.1);
+  position: absolute;
+  top: 150px;
+  right: 66px;
+  transform: rotate(45deg);
+}
 nav {
   border: 2px solid black;
   background-color: white;
@@ -85,7 +67,6 @@ nav {
     }
   }
 }
-
 .logo-nav {
   display: flex;
   font-size: 30px;
@@ -94,7 +75,6 @@ nav {
   text-align: center;
   gap: 7px;
 }
-
 .logo-nav > .Review {
   color: #ff6900;
 }
@@ -135,7 +115,6 @@ nav {
 .main-nav {
   width: 55%;
 }
-
 .main-nav > ul {
   display: flex;
   gap: 20px;
@@ -152,20 +131,16 @@ nav {
     gap: 10px;
   }
 }
-
 .main-nav > ul > li > span > a:hover {
   color: #ff7a50;
 }
-
 .main-nav > ul > li > span > a {
   text-decoration: none;
   color: black;
 }
-
 .main-nav > li {
   display: flex;
 }
-
 .main-nav ul > li > img {
   width: 15px;
   margin-left: 16px;
@@ -195,10 +170,8 @@ nav {
   transform: rotate(-3deg);
   background: black;
   color: white;
-  position: absolute;
   box-shadow: 3px 3px black;
 }
-
 .home-content h2 {
   font-size: 72px;
   font-weight: 900;
@@ -207,15 +180,12 @@ nav {
   letter-spacing: -1px;
   text-shadow: 4px 4px 0 #000;
 }
-
 .red-word {
   color: rgb(230, 46, 45);
 }
-
 .blue-word {
   color: rgb(53, 93, 252);
 }
-
 .home-content p {
   font-size: 24px;
   font-weight: 500;
@@ -234,14 +204,12 @@ nav {
 .start-reading {
   position: relative;
 }
-
 .start-reading::after {
   content: "";
   position: absolute;
   inset: 8px -8px -8px 8px;
   background: #000;
 }
-
 .start-reading .start {
   position: relative;
   z-index: 1;
@@ -260,28 +228,23 @@ nav {
   line-height: 28px;
   color: rgb(255, 255, 255);
 }
-
 .start img {
   width: 24px;
   height: 24px;
 }
-
 .start-reading:hover .start {
   transform: translate(8px, 8px);
 }
-
 .watch-intro {
   position: relative;
   margin-left: 20px;
 }
-
 .watch-intro::after {
   content: "";
   position: absolute;
   inset: 8px -8px -8px 8px;
   background: #000;
 }
-
 .watch-intro .watch {
   background: #ffffff;
   position: relative;
@@ -303,12 +266,10 @@ nav {
     color: black;
   }
 }
-
 .watch img {
   width: 24px;
   height: 24px;
 }
-
 .watch-intro:hover .watch {
   transform: translate(8px, 8px);
 }
@@ -333,14 +294,12 @@ nav {
   top: -16px;
   right: -16px;
 }
-
 .hero-image {
   flex: 1;
   min-width: 0;
   height: 385px;
   position: relative;
 }
-
 .hero-image img {
   object-fit: cover;
   transform: rotate(2deg);
@@ -351,13 +310,11 @@ nav {
   width: 100%;
   transition: transform 0.3s ease;
 }
-
 .hero-image img:hover {
   transform: translate(-2px, -2px) rotate(2deg);
 }
 .latest-articles {
   background-color: #f5f5f5;
-  padding-top: 70px;
   border: 2px solid black;
   width: 100%;
 }
@@ -384,7 +341,6 @@ nav {
     margin: 0;
   }
 }
-
 .badge {
   padding: 8px 15px;
   border: 2px solid black;
@@ -401,7 +357,6 @@ nav {
   position: relative;
   isolation: isolate;
 }
-
 .box-shadow-1::after {
   content: "";
   position: absolute;
@@ -424,7 +379,6 @@ nav {
   box-sizing: border-box;
   margin-top: 50px;
 }
-
 .box-shadow-logo {
   position: relative;
   border: 2px solid black;
@@ -467,7 +421,6 @@ nav {
   margin: 0 0 16px;
   width: 100%;
 }
-
 .colored-box {
   display: inline-block;
   padding: 4px 8px;
@@ -478,7 +431,6 @@ nav {
   box-shadow: 3px 3px 0 black;
   margin-bottom: 12px;
 }
-
 .post-details {
   display: flex;
   flex-direction: row;
@@ -487,12 +439,10 @@ nav {
   justify-content: flex-start;
   gap: 14px 24px;
 }
-
 .icon {
   display: flex;
   align-items: center;
 }
-
 .icon img {
   width: 18px;
   height: 18px;
@@ -503,17 +453,14 @@ nav {
 .box-shadow-three {
   transition: transform 0.3s ease;
 }
-
 .box-shadow-one h3 {
   transition: color 0.3s ease;
 }
-
 .box-shadow-one:hover,
 .box-shadow-tow:hover,
 .box-shadow-three:hover {
   transform: translate(-2px, -2px);
 }
-
 .box-shadow-one:hover h3 {
   color: rgb(255, 0, 0);
 }
@@ -576,14 +523,12 @@ nav {
   width: fit-content;
   margin-inline: auto;
 }
-
 .load-more::after {
   content: "";
   position: absolute;
   inset: 8px -8px -8px 8px;
   background: #000;
 }
-
 .load-more .load {
   position: relative;
   z-index: 1;
@@ -652,7 +597,6 @@ nav {
   font-weight: 400;
   line-height: 20px;
 }
-
 .second-trend {
   margin-bottom: 24px;
   display: flex;
@@ -844,7 +788,6 @@ nav {
   color: black;
   background-color: #f6c12e;
 }
-
 .AUTHORS::after {
   content: "";
   position: absolute;
@@ -1237,23 +1180,18 @@ nav {
 .footer {
   background: #000000;
   color: #ffffff;
-  width: 100.1%;
   border: 1.6px solid #000000;
   border-right-color: #ffffff;
 }
 .footer-content {
   display: flex;
   flex-direction: row;
-  gap: 273px;
 }
-.heading-section {
-  width: 50%;
-}
+
 .main-heading {
   display: flex;
   margin-bottom: 32px;
   margin-top: 32px;
-  width: 135%;
 }
 .logo {
   display: flex;
@@ -1275,7 +1213,7 @@ nav {
   font-size: 18px;
   font-weight: 400;
   line-height: 29.25px;
-  width: 433px;
+  gap: 48px;
 }
 .categories {
   margin-top: 57px;
@@ -1302,7 +1240,7 @@ nav {
   color: #f7df1c;
 }
 .news-letter {
-  margin-left: -100px;
+  /* margin-left: -100px; */
   margin-top: 27px;
   h4 {
     font-size: 24px;
@@ -1388,8 +1326,5 @@ header {
   border: 1.6px solid black;
 }
 .footer {
-  border: 1.6px solid;
-  border-top: 5px;
-  border-left-color: black;
-  border-bottom-color: black;
+  border: 1.6px solid black;
 }
